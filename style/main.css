@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+
+}
+div.header-area{
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px rgb(25 25 25  / 10% );
+    color: white;
+}
+div.main-header{
+    position: relative;
+    z-index: 3;
+}
+div.header-top{
+    padding: 8px 0;
+    background: #000000;
+}
+div.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.col-xl-12{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+div.header-top-inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
