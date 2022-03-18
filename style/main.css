@@ -96,6 +96,12 @@ div.header-mid.container{
 main{
     display: block;
 }
+
+                    /*Trending area*/
+.trending-main{
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 50px;
+}
 div.trending-title{
     padding-top: 31px;
     padding-bottom: 33px;
@@ -116,7 +122,6 @@ div.trending-title{
     bottom: 25px;
     left: 65px;
 }
-
 .trend-top-cap a{
     color: #fff;
     font-weight: 700;
@@ -129,10 +134,9 @@ div.trending-title{
 .mb-35{
     margin-bottom: 35px;
 }
-.color1{
-
+.trend-bottom-img img{
+    width: 100%;
 }
-
 .trend-bottom-cap h4{
     font-weight: 500;
     line-height: 1.4;
@@ -166,3 +170,36 @@ div.trending-title{
     background: #e1fcff;
 }
 
+                /*Trending right cap*/
+.trending-right-simple{
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+.trending-right-cap{
+    padding-left: 18px;
+
+}
+
+.trending-right-cap span{
+    padding: 10px 15px;
+    background: #ffe7e6;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.trending-right-cap h4{
+    margin-top:  10px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.trending-right-cap a{
+    text-decoration: none;
+    color: black;
+}
+.trending-right-simple:last-child{
+    border-bottom: 0;
+}
+
+                /*Weakly area*/
